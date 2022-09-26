@@ -12,6 +12,6 @@ navbar:
 output:
   html_document:
     includes:
-      in_header: header.html
+      # in_header: header.html
     theme: paper
-    css: style.css
+    # css: style.css
