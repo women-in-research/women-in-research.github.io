@@ -4,16 +4,16 @@ title: "Resources"
 
 Here are some helpful resources we've collected to address issues of gender equality and intersections in the (academic) workplace (in no particular order).
 
-# Articles and blog posts
+### Articles and blog posts
 
 1. [Don’t be that dude: Handy tips for the male academic](https://tenureshewrote.wordpress.com/2013/09/26/dont-be-that-dude-handy-tips-for-the-male-academic/) from the blog [Tenure, she wrote](https://tenureshewrote.wordpress.com)
 
 2. [Sexism in the academy](https://www.nplusonemag.com/issue-34/essays/sexism-in-the-academy/) by Troy Vettese
 
-# Organizations, groups, and networking
+### Organizations, groups, and networking
 
-[A list of minoritised computational cognitive modellers/scientists](https://compcog.science)
+1. [A list of minoritised computational cognitive modellers/scientists](https://compcog.science)
 
-[R-Ladies](https://rladies.org)
+2. [R-Ladies](https://rladies.org)
 
-[Py-Ladies](https://pyladies.com)
+3. [Py-Ladies](https://pyladies.com)
