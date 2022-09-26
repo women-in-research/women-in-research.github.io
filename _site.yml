@@ -1,0 +1,17 @@
+name: "personal-website"
+output_dir: "."
+navbar:
+  title: "Women in Research (WiR)"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Events"
+      href: events.html
+    - text: "Resources"
+      href: resources.html
+output:
+  html_document:
+    includes:
+      in_header: header.html
+    theme: paper
+    css: style.css
