@@ -6,14 +6,28 @@ Here are some helpful resources we've collected to address issues of gender equa
 
 ### Articles and blog posts
 
-1. [Don’t be that dude: Handy tips for the male academic](https://tenureshewrote.wordpress.com/2013/09/26/dont-be-that-dude-handy-tips-for-the-male-academic/) from the blog [Tenure, she wrote](https://tenureshewrote.wordpress.com)
+[Don’t be that dude: Handy tips for the male academic](https://tenureshewrote.wordpress.com/2013/09/26/dont-be-that-dude-handy-tips-for-the-male-academic/) from the blog [Tenure, she wrote](https://tenureshewrote.wordpress.com)
 
-2. [Sexism in the academy](https://www.nplusonemag.com/issue-34/essays/sexism-in-the-academy/) by Troy Vettese
+[Sexism in the academy](https://www.nplusonemag.com/issue-34/essays/sexism-in-the-academy/) by Troy Vettese
+
+### Books
+
+[*Und jetzt du*](https://www.penguinrandomhouse.de/Buch/Und-jetzt-du-/Tupoka-Ogette/Penguin/e595718.rhd) and [*Exit Racism*](https://www.exitracism.de) by [Tupoka Ogette](https://www.tupoka.de)
+
+[*Zugang verwehrt. Keine Chance in der Klassengesellschaft: wie Klassismus soziale Ungleichheit fördert*](https://www.w1-media.de/produkte/zugang-verwehrt-557889) and other books by [Francis Seeck](https://www.francisseeck.net)
 
 ### Organizations, groups, and networking
 
-1. [A list of minoritised computational cognitive modellers/scientists](https://compcog.science)
+[A list of minoritised computational cognitive modellers/scientists](https://compcog.science)
 
-2. [R-Ladies](https://rladies.org)
+[R-Ladies](https://rladies.org)
 
-3. [Py-Ladies](https://pyladies.com)
+[Py-Ladies](https://pyladies.com)
+
+[Black girls code](https://wearebgc.org)
+
+[PhDisabled](https://phdisabled.wordpress.com)
+
+[Netzwerk Diversity an Hochschulen](https://netzwerk-diversity.de)
+
+[Minority Postdoc](https://www.minoritypostdoc.org)
