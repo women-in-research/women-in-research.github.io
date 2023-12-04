@@ -13,7 +13,7 @@
 
 <title>Events</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
@@ -142,11 +142,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -175,8 +179,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -184,16 +188,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -272,29 +269,18 @@ $(document).ready(function () {
 </div>
 
 
-<p>We are excited to announce a workshop on salary negotiation for
-female researchers, led by Tina Groll, who is an editor at <em>Zeit
-Online</em>. The workshop will include the following topics:</p>
-<ul>
-<li>Negotiation strategies</li>
-<li>Starting salaries for academics in Germany and salary
-components</li>
-<li>Basics of labor law</li>
-<li>Important tips for monetary benefits (company pensions,
-capital-forming benefits, etc.)</li>
-<li>Tips on how women can prevent the gender pay gap</li>
-<li>Practical exercises</li>
-</ul>
-<p>The workshop will take place over Zoom, and details will be sent out
-to SFB members. This workshop will be open to women PIs, postdocs, and
-PhD students.</p>
-<p>Workshop date:<br />
-April 24, 2023<br />
-10am-1pm</p>
+<p>Stay tuned for new workshops we will offer in 2024!</p>
+<div id="previous-workshops" class="section level2">
+<h2>Previous workshops</h2>
+<p>Salary negotiation for female researchers<br />
+Facilitated by Tina Groll</p>
+<p>Leadership skills for women researchers<br />
+Facilitated by Svenja Neupert</p>
 <!-- --- -->
 <!-- #### Contact -->
 <!-- pamela dot fuhrmeister at uni hyphen potsdam dot de   -->
 <!-- pamfuhrmeister at gmail dot com -->
+</div>
 
 
 
